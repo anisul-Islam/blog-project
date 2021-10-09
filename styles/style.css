@@ -402,6 +402,10 @@ footer {
   .form-control {
     flex-direction: column;
   }
+  input,
+  textarea {
+    max-width: 100%;
+  }
   .form-control label {
     margin-bottom: 0.5rem;
   }
